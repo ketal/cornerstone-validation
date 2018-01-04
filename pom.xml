@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.ketal</groupId>
-    <artifactId>validation</artifactId>
+    <artifactId>cornerstone-validation</artifactId>
     <packaging>jar</packaging>
-    <name>validation</name>
+    <name>cornerstone-validation</name>
     <version>1.0.0-SNAPSHOT</version>
     <description>Bean validation Library.</description>
 

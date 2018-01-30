@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.ketal.validation.constraints;
+package com.github.ketal.cornerstone.validation.constraints;
 
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
@@ -32,8 +32,8 @@ import java.lang.annotation.Target;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
-import com.github.ketal.validation.constraints.Password.List;
-import com.github.ketal.validation.constraintvalidators.PasswordValidator;
+import com.github.ketal.cornerstone.validation.constraints.Password.List;
+import com.github.ketal.cornerstone.validation.constraintvalidators.PasswordValidator;
 
 @Target({ METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER, TYPE_USE })
 @Retention(RUNTIME)

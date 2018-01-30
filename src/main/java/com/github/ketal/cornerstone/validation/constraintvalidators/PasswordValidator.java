@@ -14,14 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.ketal.validation.constraintvalidators;
+package com.github.ketal.cornerstone.validation.constraintvalidators;
 
 import java.util.regex.Pattern;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.github.ketal.validation.constraints.Password;
+import com.github.ketal.cornerstone.validation.constraints.Password;
 
 public class PasswordValidator implements ConstraintValidator<Password, String> {
 
